@@ -5,13 +5,13 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     //! このオブジェクトを2つ以上生成しない
-    public static GameController instance = null;
+    [SerializeField] static GameController instance = null;
     //! スコア
-    public int score = 0;
-    //! ハイスコア記録
-    public int[] scoreRanking = new int[10];
+    [SerializeField] int score = 0;
 
-    // Start is called before the first frame update
+    //! ハイスコア記録(仮で10位まで)
+    [SerializeField] int[] scoreRanking = new int[10];
+
     void Awake()
     {
         if (instance == null)

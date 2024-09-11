@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: OCO Games
+  companyName: DefaultCompany
   productName: "\u914D\u9054\u30C0\u30C3\u30B7\u30E5(\u4EEE)"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -677,8 +677,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 
-  metroPackageVersion: 1.0.0.0
+  metroPackageName: "\u914D\u9054\u30C0\u30C3\u30B7\u30E5(\u4EEE)"
+  metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -686,7 +686,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: "\u914D\u9054\u30C0\u30C3\u30B7\u30E5(\u4EEE)"
   wsaImages: {}
-  metroTileShortName: "\u914D\u9054\u30C0\u30C3\u30B7\u30E5(\u4EEE)"
+  metroTileShortName: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
